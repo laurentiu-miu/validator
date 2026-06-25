@@ -8,7 +8,7 @@ I. Prerequisites:
 II. External Validation API
 1. Clone GitHub repository:```git@github.com:laurentiu-miu/validator.git```
 2. Start the application from command line
-3. Read the [`OpenAPI Documentation of External API`](http://localhost:8080/swagger-ui.html)
+3. Read the [`OpenAPI Documentation of External API`](http://localhost:8080/swagger-ui/index.html)
 
 III. What to do:
 1. Initialize a maven Spring Boot Application named Person Manager.

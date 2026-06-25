@@ -1,10 +1,10 @@
 package rest.api.client;
 
-import lombok.extern.log4j.Log4j2;
+import lombok.extern.slf4j.Slf4j;
 
 import java.util.function.Consumer;
 
-@Log4j2
+@Slf4j
 public class Mailer {
     private Mailer() {}
     public Mailer from(String addr) {log.info("from: {}",addr);return this;}
